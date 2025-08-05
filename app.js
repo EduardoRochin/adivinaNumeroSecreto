@@ -8,7 +8,7 @@ function generarNumeroSecreto() {
     console.log(numeroGenerado)
     console.log(listaNumerosSorteados)
     if(listaNumerosSorteados.length == numeroMaximo){
-        agregarTextoElemento(elemento = 'p', texto ='LLegaste al finaol del juego');
+        agregarTextoElemento(elemento = 'p', texto ='LLegaste al final del juego');
         return;
     }
         else{
